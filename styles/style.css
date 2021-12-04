@@ -1,0 +1,206 @@
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #006600;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #006600;
+    color: white;
+    /*
+    padding: 15px;
+
+     */
+}
+/* padding for categories */
+.leftPadding {
+    padding-left: 25px;
+    /* text-align: center; */
+}
+.quest_padding{
+    padding-left:35px;
+}
+/*padding for answers */
+.answers_padding{
+    padding-left: 45px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+
+/*hector button*/
+div.visible{
+//visibility: visible;
+    display: block;
+
+}
+
+
+div.hidden{
+//visibility:hidden;
+    display: none;
+}
+
+
+input.visible{
+//visibility: visible;
+    display: block;
+}
+
+
+input.hidden{
+//visibility: hidden;
+    display: none;
+}
+
+.err{
+    color: red;
+    display: none;
+
+}
+
+.errNone{
+    display: none;
+}
+fieldset{
+    border: 5px;
+}
+
+/*login styles*/
+.err-log{
+    color: darkred;
+    display: none;
+}
+
+/*accordian styles*/
+#generalHead{
+    background-color: #006225 !important;
+    border-radius: 0.5em;
+}
+#differentHead{
+    background-color: #006225 !important;
+    border-radius: 0.5em;
+}
+#languageHead{
+    background-color: #006225 !important;
+    border-radius: 0.5em;
+}
+
+.card-title a{
+    color: white !important;
+}
+
+
+/*
+Adding paperclip icon
+*/
+
+.icon-paperclip {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.icon-paperclip .paperclip-1 {
+    width: 80%;
+    height: 40%;
+    background-color: #fff;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 28%;
+    right: 10%;
+}
+
+.icon-paperclip .paperclip-2 {
+    width: 80%;
+    height: 72%;
+    background-color: #fff;
+    border-radius: 0%;
+    position: absolute;
+    left: 8%;
+    border-radius: 10px;
+    top: 14.5%;
+}
+
+.icon-paperclip .paperclip-2:before {
+    content: "";
+    width: 25%;
+    height: 120%;
+    background-color: inherit;
+    position: absolute;
+    left: 90%;
+    top: 18%;
+    border-radius: 100%;
+}
+
+.icon-paperclip .paperclip-2:after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    background-color: inherit;
+    position: absolute;
+    left: 85%;
+    top: 86%;
+}
+
+.icon-paperclip .paperclip-3 {
+    width: 102%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 25px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    top: 16%;
+    right: -14.8%;
+}
+
+.icon-paperclip .paperclip-4 {
+    width: 81%;
+    height: 40%;
+    background-color: #fff;
+    border-radius: 65px;
+    border-bottom-right-radius: 145px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.icon-paperclip .paperclip-4:after {
+    content: "";
+    width: 23%;
+    height: 225%;
+    background-color: inherit;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 4px;
+
+    position: absolute;
+    right: 0;
+    top: -100%;
+}
